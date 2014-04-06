@@ -258,6 +258,8 @@ class BiblestudyControllerAdmin extends JControllerForm
 	/**
 	 * Convert PreachIt to BibleStudy
 	 *
+	 * @throws string
+	 *
 	 * @return void
 	 */
 	public function convertPreachIt()
@@ -271,6 +273,7 @@ class BiblestudyControllerAdmin extends JControllerForm
 	 * Tries to fix missing database updates
 	 *
 	 * @return void
+	 * @throws string
 	 *
 	 * @since    7.1.0
 	 */
@@ -285,6 +288,7 @@ class BiblestudyControllerAdmin extends JControllerForm
 	 * Reset Db to install
 	 *
 	 * @return void
+	 * @throws  string
 	 *
 	 * @since    7.1.0
 	 */
