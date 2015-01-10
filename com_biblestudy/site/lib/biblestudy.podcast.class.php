@@ -226,7 +226,7 @@ class JBSMPodcast
 								break;
 							case 5:
 								$element = $custom->getCustom(
-									$rowid = 'row1col1',
+									$rowid = '24',
 									$podinfo->custom,
 									$episode,
 									$params,
